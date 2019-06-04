@@ -1,0 +1,91 @@
+body,
+pre {
+  font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, sans-serif;
+  background-color: dimgrey;
+}
+header {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: deepskyblue;/*#7CA4D7*/
+}
+header h1 {
+  font-size: 100%;
+  margin-top: 30px;
+}
+header h1 span {
+  display: block;
+}
+main:not(.menubar){
+  margin-left: 300px;
+  padding-top: 10px;
+  background-color: dimgrey;
+  color: aliceblue;
+}
+main h2 {
+  font-size: 120%;
+  text-shadow: 1px 1px 3px #999;
+}
+main h2 img {
+  height: 1em;
+}
+pre {
+  min-height: 100px;
+  padding: 10px;
+　background-color: dimgrey;
+　color: aliceblue;
+  box-shadow: 1px 1px 5px #eee;
+  width: 500px;
+}
+hr {
+  border-color: #7CA4D7;
+}
+.content {
+  margin-top: 30px;
+}
+form {
+  margin-top: 10px;
+}
+time {
+  color: #999;
+  font-size: 80%;
+}
+article {
+  margin-top: 5px;
+}
+
+.menubar{
+    background-color:palevioletred;
+    padding:1px;
+}
+
+.menubar span{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+textarea{
+    background-color: dimgrey;
+    color: aliceblue;
+}
+
+button{
+    background-color: dimgrey;
+    color: aliceblue;
+    border:solid 1px #7fcfe2; 
+    border-radius: 5px ;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: dimgrey;
+}
+
+article pre{
+    background-color: dimgrey;
+    color: aliceblue;
+    width: 900px;
+    height: 400px;
+}
